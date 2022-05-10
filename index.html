@@ -1,0 +1,811 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.scss">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+     
+
+
+
+
+  </head>
+  <body>
+     <!--Navbar ne container1 -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <!--Logo -->
+        <a class="navbar-brand fs-4 " href="#"><span class="text-danger fw-bold ">UOMO</span></a>
+
+         <!--menu qe permban linqet me poshte -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false " aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--linqet qe lidhen me navbar toggler-->
+        <div class="collapse  " id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Collection</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jornual</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lookbook</a>
+            </li>
+          </ul>
+        </div>
+        <button type="button" class="btn  text-danger ms-3 d-lg-flex  d-none"data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown " aria-controls="navbarNavDropdown " aria-expanded="false"  ><i class="fa-solid fa-bars"></i></button>
+          
+        <!--ikonat ne fund te navbar qe permbajne search ,shopping bag dhe favourites per klientin -->
+        <div class="ms-lg-auto    ">
+          <ul class="navbar-nav  mb-2 d-md-flex flex-md-row d-none">
+              <li class="nav-item">
+                  <a class=" btn rounded-pill px-3 mt-2 text-dark"
+                     href="#"><i class="fa-solid fa-magnifying-glass"></i> </a>
+              </li>
+              <li class="nav-item">
+                  <a class=" btn mt-2 ms-3 rounded-pill px-3 text-dark"
+                     href="#"><i class="fa-solid fa-user"></i></a>
+              </li>
+              <li>
+                <a class=" btn mt-2 ms-3 rounded-pill px-3 text-dark"
+           href="#">  <i class="fa-solid fa-heart"></i> </a>
+              </li>
+              <li>
+               <a class=" btn mt-2 ms-3 rounded-pill px-3 text-dark"
+          href="#"> <i class="fa-solid fa-bag-shopping"></i> </a>
+             </li>
+            </ul>
+           </div> 
+       </div>
+    </nav>
+             <hr>
+
+
+
+             <!--containeri2 me fotot ne slide si dhe linqet per social media -->
+             <div class="container-fluid mt-2">
+               <div class="row">
+                 <div class="col-lg-1 col-md-1  d-lg-flex flex-lg-column d-md-flex flex-md-column d-none fs-6   mt-3 text-center scmedia ">
+                  <a class=" btn  px-0  " href="#"><i class="fa-brands fa-facebook  text-gray"></i>  </a> 
+                  <a class="btn  px-0 " href="#"><i class="fa-brands fa-twitter  text-gray"></i>  </a>
+                  <a class="btn  px-0 " href="#"><i class="fa-brands fa-instagram  text-gray"></i>  </a>
+                  <a class="btn  px-0 " href="#"><i class="fa-brands fa-youtube  text-gray"></i>  </a>
+                  <a class="btn  px-0 " href="#"><i class="fa-brands fa-pinterest  text-gray"></i>  </a>
+                  <p class="follow  mt-3 fs-6 p-5 text-gray">FOLLOWS  </p>
+                 </div>
+
+                 <div class="col-lg-10 col-md-10 col-sm-10 col-12"> <!--slidet ne responsive -->
+
+
+                  <!--Fotot te vendosura ne swiper-slide si img, ndersa fotoja e pare eshte vendosur background me tekstin pershkrues siper-->
+                  <div class="swiper mySwiper1" style="border: 2px solid gray;">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide slider1 d-block justify-content-start"> 
+                      <div class="dc6 text-start mt-5 p-5 ">
+
+                        <h6 class="text-danger ">NEW TREND</h6>
+                        <h1 class=" text-uppercase ">summer sale stylish</h1>
+                        <h1 class="  fw-bold text-uppercase">womens</h1>
+                         <a href="#" class="text-decoration-none text-danger" >Discover more</a>
+                      </div>
+                      </div> 
+                      <div class="swiper-slide">  <img src="foto2.jpg" class="d-block w-100 img-fluid" alt="foto2" > </div>
+                      <div class="swiper-slide"> <img src="foto1.jpg" class="d-block w-100 img-fluid" alt="foto1" >  </div>
+                      <div class="swiper-slide"> <img src="foto6.jpg" class="d-block w-100 " alt="foto6" > </div>
+                      <div class="swiper-slide"> <img src="foto7.jpg" class="d-block w-100 " alt="foto7" > </div>
+                      <div class="swiper-slide"><img src="foto8.jpg" class="d-block w-100 " alt="foto8" > </div>
+                      <div class="swiper-slide">  <img src="foto9.jpg" class="d-block w-100 " alt="foto9" > </div>
+                      <div class="swiper-slide" ><img src="foto10.jpg" class="d-block "alt="foto10" > </div>
+                    
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+
+                 </div>
+
+                 <!--SCROLL -->
+                 <div class="col-lg-1 col-md-1 col-sm-1  ">
+                   <div class="scroll text-start d-lg-block d-md-block d-none">
+                   <a href="#" class="scr fs-6 px-0 text-dark btn">SCROLL</a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+
+              
+      
+          <!--Containeri3 -->
+        <div class="container mt-3 p-lg-5 ms-lg-auto p-md-3 p-sm-3 p-1 ms-auto">
+          <div class="row">
+
+            <!--Div qe dizenjon women collection me foton si background dhe tekst siper fotos te stilizuara ne scss-->
+            <div class="col-lg-6 col-md-12 order-md-1 col-sm-12 order-sm-1 col-12 order-1 imgwomen ">
+              <div class=" w1   rounded  "  >
+            <div class="dc3 d-block text-start ">
+              <h5>HOT LIST</h5>
+              <h3><strong>WOMEN</strong> COLLECTION</h3>
+              <a class="btn text-dark" href="#">SHOP NOW</a>
+            </div>
+            </div>
+            </div>
+
+             <!--div qe permban mancollection dhe kids collection te ndara ne kolonat perkatese dhe per responsive-->
+            <div class="col-lg-6 col-md-12 order-md-2  col-sm-12 order-sm-2  col-12 
+            order-2 mt-lg-0 mt-2 ">
+              <div class="man   ">
+              <div class=" m1  rounded "   >
+               <div class="dc2 d-block text-start mt-1 p-1">
+                <h5>HOT LIST</h5>
+                <h3><strong>MEN</strong> COLLECTION</h3>
+                <a class="btn text-dark" href="#">SHOP NOW</a>
+               </div>
+              </div>
+              </div>
+
+
+              <div class="kid  mt-3 d-lg-flex d-md-block d-sm-block d-block col-lg-12 " >
+                <div class=" k1 rounded col-lg-6 col-12 "   >
+              <div class="dc2 d-block text-start ms-3  ">
+                <h6>HOT LIST</h6>
+                <h4><strong>KIDS</strong> COLLECTION</h4>
+                <a class="btn   text-dark" href="#">SHOP NOW</a>
+               </div>
+              </div>
+              <div class="gift ms-lg-3  col-lg-6  col-12  rounded   ">
+                <div class="dc4 p-5 ms-lg-3 ms-5 mt-3">
+                 <h5><strong>E-GIFT CARDS</strong></h5>
+                 <p >Surprise someone with the gift they really want</p>
+                 <a class="btn  text-dark" href="#">Discover more </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+       
+
+
+        <!--container4 me linqet dhe OUR TRENDY PRODUCTS-->
+        <div class="container mt-5 p-2">
+        <h3 class="text-center  fs-4 "><span style="font-family: Arial, Helvetica, sans-serif;">OUR TRENDY <b>PRODUCTS</b></span></h3>
+             
+         <div class="links  ">
+          <nav class="navbar navbar-expand-lg navbar-light ">
+          <ul class="  navbar-nav me-auto mb-2 mb-lg-0  d-flex  flex-row   ">
+            <li class="nav-item ">
+              <a class="nav-link  active text-gray " href="#"> ALL </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-gray" href="#"> NEWARRIVALS </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-gray" href="#"> BEST SELLER </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active text-gray" href="#"> TOP RATING </a>
+            </li>
+          </ul>
+          </nav>
+         </div>
+          </div>
+        
+
+
+
+        <!--container5 me 8 foto te vendosura me background ne scss -->
+          <div class="container mt-2 p-1">
+            <div class="row">
+              <!--foto1 me klasen s1-->
+             <div class="col-lg-3 col-md-3 col-sm-3 col-6 ">
+               <!--div qe permban dresses dhe like ne fund -->
+              <div class=" s1 "  ></div>
+            <div class="dc1 d-flex">
+            <p class="text-gray">Dresses</p>
+            <div class="heart ms-auto d-flex justify-content-end">
+              <!--butoni per opsionin like -->
+            <a class="nav-link btn rounded-pill px-0 text-danger"
+          href="#"> <i class="fa-solid fa-heart"></i> </a>
+            </div>
+            </div>
+            <!--pershkrimi poshte fotos se pare-->
+            <h6>Black Leather Jumpsuit</h6>
+            <h6>$160</h6>
+             </div>
+
+
+
+              <!--foto2 me klasen s2 -->
+             <div class="col-lg-3 col-md-3 col-sm-3 col-6">
+              <div class=" s2 "  ></div>
+            <div class="dc1 d-flex">
+              <p class="text-gray">Dresses</p>
+              <div class="heart ms-auto d-flex justify-content-end">
+              <a class="nav-link btn rounded-pill px-0 text-danger"
+            href="#"> <i class="fa-solid fa-heart"></i> </a>
+              </div>
+              </div>
+             <!--pershkrimi per foton2-->
+              <h6>Clavin New Collection</h6>
+              <h6>$159</h6>
+             </div>
+              
+
+
+
+             <!--foto3 me klasen s3-->
+             <div class="col-lg-3 col-md-3 col-sm-3  col-6">
+              <div class=" s3  "   ></div>
+              <!--div qe permban dresses dhe like -->
+            <div class="dc1 d-flex">
+              <p class="text-gray">Dresses</p>
+              <div class="heart ms-auto d-flex justify-content-end">
+              <a class="nav-link btn rounded-pill px-0 text-danger"
+            href="#"> <i class="fa-solid fa-heart"></i> </a>
+              </div>
+              </div>
+             <!--pershkrimi per foton3-->
+             <h6>White Jumpsuit</h6>
+             <h6>$79</h6>
+             </div>
+
+
+
+             <!--foto4 me klasen s4-->
+             <div class="col-lg-3 col-md-3 col-sm-3  col-6">
+              <div class=" s4 "  ></div>
+            <div class="dc1 d-flex">
+              <p class="text-gray">Dresses</p>
+              <div class="heart ms-auto d-flex justify-content-end">
+              <a class="nav-link btn rounded-pill px-0 text-danger"
+            href="#"> <i class="fa-solid fa-heart"></i> </a>
+              </div>
+              </div>
+              <h6>Cableknit Man's Collection</h6>
+              <h6><del>$299</del><span class="text-danger">      $199</span></h6>
+             </div>
+            </div>
+            
+            <!--rreshti i dyte me 4 foto-->
+            <div class="row mt-3 ">
+              <!--foto5-->
+              <div class=" col-lg-3 col-md-3 col-sm-3 col-6  mt-2 d-lg-block d-md-block d-none ">
+               <div class=" s5  "   ></div>
+             <div class="dc1 d-flex">
+               <p class="text-gray">Dresses</p>
+               <div class="heart ms-auto d-flex justify-content-end">
+               <a class="nav-link btn rounded-pill px-0 text-danger"
+             href="#"> <i class="fa-solid fa-heart"></i> </a>
+               </div>
+               </div>
+               <h6>Calvin Blue Shirt</h6>
+               <h6>$188</h6>
+              </div>
+ 
+ 
+ 
+ 
+ 
+             <!--foto6-->
+              <div class=" col-lg-3 col-md-3 col-sm-3 col-6 mt-2 d-lg-block d-md-block d-none  ">
+               <div class=" s6  "  ></div>
+             <div class="dc1 d-flex">
+               <p class="text-gray">Dresses</p>
+               <div class="heart ms-auto d-flex justify-content-end">
+               <a class="nav-link btn rounded-pill px-0 text-danger"
+             href="#"> <i class="fa-solid fa-heart"></i> </a>
+               </div>
+               </div>
+               <h6>Tom Ford Black Costume</h6>
+               <h6>$489</h6>
+              </div>
+               
+ 
+ 
+ 
+             <!--foto7-->
+              <div class=" col-lg-3 col-md-3 col-sm-3 col-6 mt-2 d-lg-block d-md-block d-none ">
+               <div class=" s7 " ></div>
+             <div class="dc1 d-flex">
+               <p class="text-gray">Dresses</p>
+               <div class="heart ms-auto d-flex justify-content-end">
+               <a class="nav-link btn rounded-pill px-1 text-danger"
+             href="#"> <i class="fa-solid fa-heart"></i> </a>
+               </div>
+               </div>
+               <h6>Balmain Black Pants</h6>
+               <h6>$239</h6>
+              </div>
+ 
+ 
+ 
+               <!--foto8-->
+              <div class=" col-lg-3 col-md-3 col-sm-3 col-6 mt-2 d-lg-block d-md-block d-none">
+                <div class="s8 "  ></div>
+             <div class="dc1 d-flex">
+               <p class="text-gray">Dresses</p>
+               <div class="heart ms-auto d-flex justify-content-end">
+               <a class="nav-link btn rounded-pill px-0 text-danger"
+             href="#"> <i class="fa-solid fa-heart"></i> </a>
+               </div>
+               </div>
+               <h6>Moncler Grenoble Dress</h6>
+               <h6>$120</h6>
+              </div>
+             </div>
+             </div>
+           
+             <!--linku per te pare produktet-->
+             <ul class="mt-4 p-1">
+             <li class=" products d-flex justify-content-center">
+               <a class="nav-link  text-dark fs-4 fw-bold p-2" href="#">SEE ALL PRODUCTS</a>
+             </li>
+             </ul>
+          </div>
+
+
+
+           
+     <!--container9 -->
+     <div class="container-fluid  mt-2" >
+      <div class="row graybg"><!--klasa "graybg " permban foton e backgroundit  ne scss-->
+         
+        <div class="dc8 ms-auto p-lg-3 d-block justify-content-start col-lg-6 col-md-5 col-sm-8 col-12"><!--klasa dc8 per vendosjen e shkrimit-->
+        <p class="text-danger" style="font-size: 15px;"><strong>DEAL OF THE WEEK</strong> </p>
+        <h1 style="font-family: 'Times New Roman', Times, serif;" class="fs-1"><strong>SPRING</strong> COLLECTION</h1>
+           <a class="btn text-dark fs-lg-1 fs-5 " href="#">SHOP NOW</a>
+             <p id="demo" class="mt-lg-5 p-lg-3 fs-2 ">00:00:00:00 </p><!--koha e mbarimit te ofertes --> 
+        </div>
+
+        <div class="col-lg-6 col-md-7 col-sm-6 d-lg-block d-md-block d-none p-1 mt-3 d-xs-none ">
+          <img class="img-fluid  "
+              src="woman8.png" style="height: 500px;" alt="t-shirt"  /> <!--foto e vendosur ne png -->
+        </div>
+      </div>
+     </div>
+
+
+
+
+     <!--container10-->
+    <div class="container mt-4  ms-auto ">
+      <div class="row">
+        <!--women collection-->
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12 "><!--resporsive-->
+          <div class=" womcollection rounded text-white" ><!--klasa "womcollection" ne scss per foton -->
+            <div class="txt1"><!--div per tesktin siper fotos-->
+            <h5 >STARTING AT $19 </h5>
+             <h5 >
+              <strong>WOMAN'S T-SHIRT</strong>
+             </h5>
+             <a class="btn text-white " href="#">SHOP NOW</a>
+            </div>
+           </div>
+          </div>
+
+           <!--man collection-->
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12 mt-lg-0 mt-3 ">
+          <div class="mancollection rounded text-dark " ><!--klasa mancollection per foton si bg-->
+            <div class="txt2"><!--klasa txt2 per tekstin siper fotos -->
+              <h5  > STARTING AT $39   </h5>
+              <h5 >
+                <strong>Men's Sportswear</strong>
+              </h5>
+                  <a class="btn text-dark" href="#">SHOP NOW</a>
+            </div>
+             </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+      <div class="container mt-4 ">
+        <h3 class="text-center "><span style="font-family: Arial, Helvetica, sans-serif;">LIMITED <b>EDITION</b></span></h3>
+      </div>
+
+
+      <!--container11 me fotot ne slide -->
+   <div class="container-fluid ">  
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper ">
+        <div class="swiper-slide"><!--klas e swiperit ku vendosim fotot-->
+          <div class="p-5 ">
+            <!--foto1-->
+          <div class=" sw1 " ></div> <!--klas sw1 per foton1-->
+          <div class="dc1 d-flex">
+          <p class="text-gray">Dresses </p>
+          <div class="heart ms-auto d-flex justify-content-end"><a class="nav-link btn rounded-pill px-1 text-dark"href="#"> <i class="fa-solid fa-heart"></i> </a>
+          </div>
+          </div>
+          <h5> Prada Black jacket</h5>
+          <h6>$689</h6>
+         </div>
+         </div>
+
+        <div class="swiper-slide">
+          <div class="  p-5">
+            <!--foto2-->
+            <div class=" sw2 "   ></div><!--klas sw2 ne css vendos foton2-->
+          <div class="dc1 d-flex">
+            <p class="text-gray">Dresses</p>
+            <div class="heart ms-auto d-flex justify-content-end">
+            <a class="nav-link btn rounded-pill px-1 text-dark"
+          href="#"> <i class="fa-solid fa-heart"></i> </a>
+            </div>
+            </div>
+            <h5> Prada Black Bag</h5>
+            <h6>$1289</h6>
+           </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="p-5 ">
+            <!--foto3-->
+            <div class=" sw3 " ></div><!--klas sw3 per foton3-->
+          <div class="dc1 d-flex ">
+            <p class="text-gray">Dresses</p>
+            <div class="heart ms-auto d-flex justify-content-end">
+            <a class="nav-link btn rounded-pill px-1 text-dark"
+          href="#"> <i class="fa-solid fa-heart"></i> </a>
+            </div>
+            </div>
+            <h5>NY White Hat</h5>
+            <h6>$59</h6>
+           </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="p-5 ">
+            <!--foto4-->
+            <div class=" sw4 "   ></div>
+          <div class="dc1 d-flex">
+            <p class="text-gray">Dresses</p>
+            <div class="heart ms-auto d-flex justify-content-end">
+            <a class="nav-link btn rounded-pill px-1 text-dark"
+          href="#"> <i class="fa-solid fa-heart"></i> </a>
+            </div>
+            </div>
+            <h5>Prada Black&White Bag</h5>
+            <h6>$1029</h6>
+           </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="p-5 ">
+            <!--foto5-->
+            <div class=" sw5 "   ></div>
+          <div class="dc1 d-flex">
+            <p class="text-gray">Dresses</p>
+            <div class="heart ms-auto d-flex justify-content-end">
+            <a class="nav-link btn rounded-pill px-1 text-dark"
+          href="#"> <i class="fa-solid fa-heart"></i> </a>
+            </div>
+            </div>
+            <h5> Pink Bag</h5>
+            <h6>$299</h6>
+           </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="p-5 ">
+            <!--foto6-->
+            <div class=" sw6 "   ></div>
+          <div class="dc1 d-flex">
+            <p class="text-gray">Dresses</p>
+            <div class="heart ms-auto d-flex justify-content-end">
+            <a class="nav-link btn rounded-pill px-1 text-dark"
+          href="#"> <i class="fa-solid fa-heart"></i> </a>
+            </div>
+            </div>
+            <h5> Accessories</h5>
+            <h6>$150</h6>
+           </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="p-5 ">
+            <!--foto7-->
+            <div class=" sw7" ></div>
+          <div class="dc1 d-flex">
+            <p class="text-gray">Dresses</p>
+            <div class="heart ms-auto d-flex justify-content-end">
+            <a class="nav-link btn rounded-pill px-1 text-dark"
+          href="#"> <i class="fa-solid fa-heart"></i> </a>
+            </div>
+            </div>
+            <h5> Accessories Summer Collection</h5>
+            <h6>$450</h6>
+           </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="p-5 ">
+            <!--foto8-->
+            <div class=" sw8 " ></div>
+          <div class="dc1 d-flex  ">
+            <p class="text-gray">Dresses</p>
+            <div class=" ms-auto d-flex justify-content-end ">
+            <a class="nav-link btn rounded-pill px-1 text-dark"
+          href="#"> <i class="fa-solid fa-heart"></i> </a>
+            </div>
+          </div>
+            <h5> Dior Bag</h5>
+            <h6>$659</h6>
+           </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+   </div>
+    
+  
+   <div class="container mt-5">
+    <h3 class="text-center fs-2 "><span style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">@UOMO</span></h3>
+   </div>
+
+   
+   <!--container me 12 fotot -->
+   <div class="container mt-3  px-1 ms-auto p-lg-0 p-md-0 p-4   " >
+     <div class="row " > <!--rreshti i pare me 6 foto-->
+       
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1  ">  <div class=" c1 "   ></div><!--klasa per foton1-->
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1">  <div class=" c2  "   ></div>  <!--klasa per foton2-->
+        </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1">  <div class=" c3 "   ></div> <!--klasa per foton3-->
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 mt-lg-0 mt-2"> <div class="c4"   ></div> <!--klasa per foton4-->
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 mt-lg-0 mt-2">  <div class=" c5 "  ></div> <!--klasa per foton5-->
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 mt-lg-0 mt-2 "><div class=" c6 " ></div> <!--klasa per foton6-->
+         </div>
+   </div>
+   
+   <!--rreshti i dyte me 6 foto te vendosura me klasat perkatese ne scss-->
+    <div class="row mt-lg-2 mt-md-2 ">
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 mt-lg-0 mt-2 "> <div class=" c7 " ></div> 
+       </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 mt-lg-0 mt-2 ">  <div class=" c8" ></div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4  px-1 mt-lg-0 mt-2"> <div class=" c9 "  ></div>
+       </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 d-lg-block d-md-block d-none "> <div class=" c10 " ></div> 
+       </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4  px-1 d-lg-block d-md-block d-none ">  <div class=" c11 "   ></div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 col-4 px-1 d-lg-block d-md-block d-none "><div class=" c12"   ></div> 
+       </div>
+    </div>
+   </div>
+   
+ 
+   <!--container me ikonat dhe tekstet poshte tyre -->
+   <div class="container mt-5">
+     <div class="row">
+       <div class="col-lg-4  ">
+        <div class=" ms-auto d-flex justify-content-center ">
+          <a class=" btn rounded-pill px-1 text-dark fs-1"
+    href="#"> <i class="fa-solid fa-caravan"></i> </a><!--ikona1 per free delivery-->
+      </div>
+         <h2 class="fw-bold fs-4 text-center" >  FAST AND FREE DELIVERY</h2>
+         <p class="text-gray text-center">Free delivery for all orders over $140</p>
+        </div>
+       
+      
+       <div class="col-lg-4">
+        <div class=" ms-auto d-flex justify-content-center "> <!--ikona2-->
+          <a class="nav-link btn rounded-pill px-1 text-dark fs-1"
+    href="#"> <i class="fa-solid fa-headset"></i> </a>
+      </div>
+         <h2 class="fw-bold fs-4 text-center" > 24/7 CUSTOMER SUPPORT </h2>
+         <p class="text-gray text-center">Friendly  24/7 customer support</p>
+
+       </div>
+       <div class="col-lg-4">
+        <div class=" ms-auto d-flex justify-content-center "><!--ikona3-->
+          <a class=" btn rounded-pill px-1 text-dark fs-1"
+    href="#"> <i class="fa-solid fa-check-to-slot"></i> </a>
+      </div>
+         <h2 class="fw-bold fs-4 text-center" >MONEY BACK GUARANTE </h2>
+         <p class="text-gray text-center">We return money within 30 days</p>
+      </div>
+     </div>
+   </div>
+    
+   <!--container-fluid per te vendosur backgroundin gri-->
+   <div class="container-fluid mt-3 p-3 " style="background-color:gainsboro; width: 100%;height: auto;" >
+       <div class="container"><!--container per vendosjen e linqeve te ndara ne kolona-->
+       <div class="row"> <!--rreshti per 5 divet -->
+
+        <!--divi i pare UOMO-->
+        <div class="col-lg-3  col-md-3 col-sm-3 col-12 mt-5 p-2 d-flex flex-column">
+          <h2 class="fs-3 text-dark text-decoration-none" href="#"><span style="font-family: 'Times New Roman', Times, serif; font-weight: bolder;"><span class="text-danger">U</span>OMO</h2>
+          <h6 class="text-gray ">1418 River Drive, Suite 35 Cottonhall, CA 9622 <br> United States</h6>
+          <h6 class="text-gray">sale@uomo.com <br> +1 246-345-0695  </h6>
+          <div class="icons d-flex mt-3 ">
+            <a class="btn rounded-circle fs-5" href="#"><i class="fa-brands fa-facebook  text-dark"></i>  </a> 
+            <a class="btn rounded-circle fs-5" href="#"><i class="fa-brands fa-twitter  text-dark"></i>  </a>
+            <a class="btn  rounded-circle fs-5" href="#"><i class="fa-brands fa-instagram  text-dark"></i>  </a>
+            <a class="btn rounded-circle fs-5" href="#"><i class="fa-brands fa-youtube  text-dark"></i>  </a>
+            <a class="btn rounded-circle fs-5 " href="#"><i class="fa-brands fa-pinterest  text-dark"></i>  </a>
+          </div>
+        </div>
+        <!--divi i dyte COMPANY me linqet te vendosura ne col-1 -->
+        <div class="col-lg-1 col-md-1 col-sm-1 col-6 mt-5 p-2 d-flex flex-column ">
+          <h5>COMPANY</h5>
+          <div class="d-block">
+            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 mb-md-0   ">
+              <li class="nav-item">
+                <a class="nav-link  active text-gray fs-6 " href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-gray fs-6 " href="#">Careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-gray" href="#">Afiliates</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-gray" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-gray" href="#">Conact us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--divi i trete SHOP  -->
+        <div class="col-lg-1 offset-lg-1 col-md-1 offset-md-1 col-sm-1 offset-sm-1 col-6  mt-5 p-2 d-flex flex-column ">
+          <h5>SHOP</h5>
+          <div class="d-block">
+            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 mb-md-0   ">
+              <li class="nav-item">
+                <a class="nav-link btn text-gray fs-6" href="#">New arrival</a>
+              </li>
+              <li class="nav-item">
+                <a class=" nav-link text-gray fs-6 " href="#">Accessories</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-gray" href="#">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-gray" href="#">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-gray" href="#">Shop all</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+     <!--divi i katert HELP-->
+        <div class="col-lg-2 offset-lg-1 col-md-2 offset-md-1 col-sm-2 offset-sm-1 col-6   mt-5 p-2 d-flex flex-column ">
+          <h5>HELP</h5>
+          <div class="d-block">
+            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0 mb-md-0   ">
+            <li class="nav-item">
+                <a class="btn text-gray fs-6 " href="#">Costumer Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn text-gray fs-6 " href="#">My Account</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn text-gray" href="#">Find a Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn text-gray" href="#">Legal&Privacy</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn text-gray" href="#">Contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="btn text-gray" href="#">Gift Card</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!--divi i peste per SUBSCRIBE-->
+        <div class="col-lg-3 col-md-3 col-sm-3 mt-4 p-3">
+      <h5 class="mt-2 p-2">SUBSCRIBE </h5>
+      <h6 class="mt-3 p-2" style="font-size: 13px;">Be the first to get the lastest news about trend,promotions,and mutch more;</h6>
+   <div class="email mt-3">
+    <form action="">
+      <div class="mb-3">
+        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email adress" aria-describedby="emailHelp">
+      </div>
+      <h6 class="p-2 mt-4">Secure payments</h6>
+      <div class="icons d-flex mt-3 ">
+        <a class="btn rounded-circle fs-3 text-primary" href="#"><i class="fa-brands fa-cc-paypal"></i></a> 
+        <a class="btn  rounded-circle fs-3 text-success" href="#"> <i class="fa-brands fa-apple-pay"></i></a>
+        <a class="btn rounded- fs-3 text-primary" href="#">  <i class="fa-brands fa-cc-visa"></i>  </a>
+        <a class="btn rounded-circle fs-5 text-danger" href="#"> Skrill </a>
+        <a class="btn rounded-circle fs-3 text-warning" href="#"> <i class="fa-brands fa-cc-mastercard  fa-costum pe-1"></i>  <!--<i class="fa-brands fa-paypal"></i>--></a>
+      </div>
+    </form>
+   </div>
+        </div>
+      </div>
+       </div>
+   </div>
+
+     <hr>
+
+
+    <!--Footer-->
+      <div class="navbar navbar-fixed-bottom bg-light">
+        <div class="container" >
+          
+            <div class="col-lg-6 col-md-6  col-sm-5 col-3 text-start  text-gray text-uppercase"  ><h6>@ 2020 <b> uomo </b></h6></div>
+   
+            <div class="col-lg-6 col-md-6 col-sm-7 col-9  ">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex flex-row text-gray justify-content-end  ">
+                <li class="nav-item">
+                  <a class="nav-link active text-gray p-2" aria-current="page" href="#"> Language </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-gray p-2 text-dark " href="#"> UNITED KINGDOM</a>
+                </li>
+               
+                <li class="nav-item">
+                  <a class="nav-link text-gray text-gray" href="#">Currency </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-dark p-2" href="#">USD</a>
+                </li>
+              </ul>
+            </div> 
+      </div>
+      </div>
+ 
+      <!--menuja statike per versionin mobeile dhe none per lg-->
+         <div class="nav   ">
+          <ul class="fixed-bottom  d-lg-none nav w-100 justify-content-around bg-light ">
+              <li class="nav-item">
+                  <a class=" nav-link   text-dark"
+                     href="#"><i class="fa-solid fa-house-chimney"></i> </a>
+              </li>
+              <li class="nav-item">
+                  <a class=" nav-link  text-dark"
+                     href="#"><i class="fa-brands fa-shopify"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark"
+           href="#">  <i class="fa-solid fa-heart"></i> </a>
+              </li>
+              <li class="nav-item">
+               <a class=" nav-link  text-dark"
+          href="#"><i class="fa-solid fa-address-card"></i></a>
+             </li>
+            </ul>
+         </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>

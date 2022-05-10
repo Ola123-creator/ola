@@ -1,0 +1,1012 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,700");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css");
+
+
+// Include any default variable overrides here (though functions won't be available)
+$enable-responsive-font-sizes: true;
+
+$font-family-sans-serif: "Roboto", sans-serif;
+
+$theme-colors: ("blue": #007bff,
+    "indigo":  #6610f2,
+    "purple": #6f42c1,
+    "pink": #e83e8c,
+    "red": #dc3545,
+    "orange": #fd7e14,
+    "yellow": #ffc107,
+    "green": #28a745,
+    "teal": #20c997,
+    "cyan": #17a2b8,
+    "white": #ffffff,
+    "gray": #6c757d,
+    "gray-dark": #343a40,
+    "primary": #007bff,
+    "secondary": #6c757d,
+    "success": #28a745,
+    "info": #17a2b8,
+    "warning": #ffc107,
+    "danger": #c4616b,
+    "light": #f8f9fa,
+    "dark": #343a40,
+    "custom-color": #f7f7f7,
+    "facebook":#4267B2,
+    "twitter":#1DA1F2,
+    "instagram":#405DE6,
+    "linkedin":#0e76a8,
+    "youtube":#c4302b
+);
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
+// Then add additional custom code here
+
+.stcmenu {
+  overflow: visible;
+  background-color:gainsboro;
+  bottom: 0;
+  width: 100%;
+}
+
+.stcmenu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.stcmenu a:hover {
+  background: #ddd;
+  color: rgb(252, 249, 84);
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 35px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+  
+
+  .swiper-slide img {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.follow{
+    transform: rotate(270deg);
+}
+
+.scr{
+
+  transform: rotate(270deg);
+}
+
+.slider1{
+  background-image: url(foto6.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+ a{
+  display: inline-block;
+	position: relative;
+	&:after {
+		content: "";
+		display: block;
+		position: absolute;
+		width: 0;
+		bottom: 0;
+		height: 2px;
+		margin: -3px 0;
+		left: 0;
+		background-color: black;
+		transition: all 0.4s ease-in 0s;
+	}
+	&:hover:after {
+		width: 100%;
+	}
+}
+
+
+.sw1{
+  background-image: url(jacket.jpg);
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.sw2{
+  background-image: url(pinkbag.jpg);
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.sw3{
+  background-image: url(hat.jpg);
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.sw4{
+  background-image: url(bag2.jpg);
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.sw5{
+  background-image: url(bag3.jpg);
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.sw6{
+  background-image: url(clock.jpg);
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.sw7{
+
+  background-image: url(glss.jpg);
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+.sw8{
+  
+  background-image: url(diorbag.jpg);
+  height: 400px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.c10{
+
+  background-image: url(collectionimg10.jpg);
+  height: 250px;
+  width:auto;
+  background-position: center;
+  background-size: cover;
+}
+.c11{
+
+  background-image: url(collectionimg11.jpg);
+  height: 250px;
+  width:auto;
+  background-position: center;
+  background-size: cover;
+}
+
+.c12{
+  background-image: url(collectionimg12.jpg);
+  height: 250px;
+  width:auto;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.dc2{
+    position: relative;
+    top: 150px;
+    
+}
+
+
+
+
+
+@include media-breakpoint-up(xs) {
+
+    .w1{
+      background-image: url(foto4.jpg);
+      height: 280px;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+    .dc3{
+      position: relative;
+      top: 180px;
+      left: 20px;
+      font-size: 15px;
+      }
+      .m1{
+        background-image: url(foto5.jpg);
+       height: 280px;
+       width:100%;
+       background-position: center;
+       background-size: cover;
+      }
+      .k1{
+        background-image: url(kids.jpg);
+        width:auto;
+        height: 280px;
+        background-position: center;
+        background-size: cover;
+      }
+      .gift{
+        background-color: bisque;
+        width: auto;
+        height: 280px;
+        display: block;
+      }
+      .links a{
+      
+        padding: 14px 17px;
+        left: 3px;
+        font-size: 17px;
+    }
+    .s1{
+
+      background-image: url(woman2.jpg);
+      height: 200px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+
+    }
+    .s2{
+      background-image: url(man2.jpg);
+      height: 200px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+  
+    }
+    .s3{
+      background-image: url(woman3.jpg);
+      height: 200px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .s4{
+      background-image: url(man3.jpg);
+      height: 200px;
+      width: auto;
+      background-position: center ;
+      background-size: cover;
+    }
+    .s5{
+      background-image: url(man7.jpg);
+      height: 200px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .s6{
+      background-image: url(woman4.jpg);
+      height: 200px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .s7{
+      background-image: url(man4.jpg);
+      height: 200px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .s8{
+      background-image: url(woman7.jpg);
+      height: 200px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .graybg{
+      background-image: url(graybg.jpg);
+      background-position: center;
+      background-size: cover;
+      height: 340px;
+      width: auto;
+    }
+    .dc8{
+      position: relative;
+      top: 90px;
+      width: 100%;
+    }
+    .womcollection{
+      background-image: url(woman7.jpg);
+      height: 340px;
+      width: auto;
+      background-position: center ;
+      background-size: cover;
+    }
+    .txt1{
+      position: relative;
+      top: 210px;
+    }
+    .mancollection{
+      background-image: url(man6.jpg);
+      height: 340px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .txt2{
+      position: relative;
+      top: 210px;
+    }
+    .sw1{
+      background-image: url(jacket.jpg);
+      height: 400px;
+      width: 300px;
+      background-position: center;
+      background-size: cover;
+    }
+    .c1{
+      background-image: url(collectionimg1.jpg);
+      height: 170px;
+      width: auto;
+      background-position: center;
+      background-size: cover;
+    }
+    
+    .c2{
+      background-image: url(collectionimg2.jpg);
+      height: 170px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .c3{
+      background-image: url(collectionimg3.jpg);
+      height: 170px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .c4{
+      background-image: url(collectionimg4.jpg);
+      height: 170px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .c5{
+      background-image: url(collectionimg5.jpg);
+      height: 170px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .c6{
+    
+      background-image: url(collection6.jpg);
+      height: 170px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .c7{
+    
+      background-image: url(collectionimg7.jpg);
+      height: 170px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    
+    .c8{
+    
+      background-image: url(collectionimg8.jpg);
+      height: 170px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+    .c9{
+    
+      background-image: url(collectionimg9.jpg);
+      height: 170px;
+      width:auto;
+      background-position: center;
+      background-size: cover;
+    }
+}
+
+@include media-breakpoint-up(sm) {
+ 
+  .w1{
+    background-image: url(foto4.jpg);
+    height: 500px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s1{
+    background-image: url(woman2.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s2{
+    background-image: url(man2.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+
+  }
+  .s3{
+    background-image: url(woman3.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s4{
+    background-image: url(man3.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center ;
+    background-size: cover;
+  }
+  .s5{
+    background-image: url(man7.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s6{
+    background-image: url(woman4.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s7{
+    background-image: url(man4.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s8{
+    background-image: url(woman7.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .womcollection{
+    background-image: url(woman7.jpg);
+    height: 340px;
+    width: auto;
+    background-position: center ;
+    background-size: cover;
+  }
+  .txt1{
+    position: relative;
+    top: 210px;
+  }
+  .mancollection{
+    background-image: url(man6.jpg);
+    height: 340px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .txt2{
+    position: relative;
+    top: 210px;
+  }
+
+  .graybg{
+    background-image: url(graybg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: auto;
+  }
+  .c1{
+    background-image: url(collectionimg1.jpg);
+    height: 170px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .c2{
+    background-image: url(collectionimg2.jpg);
+    height: 170px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c3{
+    background-image: url(collectionimg3.jpg);
+    height: 170px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c4{
+    background-image: url(collectionimg4.jpg);
+    height: 170px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c5{
+    background-image: url(collectionimg5.jpg);
+    height: 170px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c6{
+  
+    background-image: url(collection6.jpg);
+    height: 170px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c7{
+  
+    background-image: url(collectionimg7.jpg);
+    height: 170px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .c8{
+  
+    background-image: url(collectionimg8.jpg);
+    height: 170px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c9{
+  
+    background-image: url(collectionimg9.jpg);
+    height: 170px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+@include media-breakpoint-up(md) {
+
+  .w1{
+    background-image: url(foto4.jpg);
+    height: 350px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .scroll{
+    position: relative;
+    top: 320px;
+   
+  }
+  .s1{
+    background-image: url(woman2.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s2{
+    background-image: url(man2.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+
+  }
+  .s3{
+    background-image: url(woman3.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s4{
+    background-image: url(man3.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center ;
+    background-size: cover;
+  }
+  .s5{
+    background-image: url(man7.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s6{
+    background-image: url(woman4.jpg);
+    height: 300px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s7{
+    background-image: url(man4.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .s8{
+    background-image: url(woman5.jpg);
+    height: 300px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+
+  }
+
+  .graybg{
+    background-image: url(graybg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+    width: auto;
+  }
+  .womcollection{
+    background-image: url(woman7.jpg);
+    height: 550px;
+    width: auto;
+    background-position: center ;
+    background-size: cover;
+  }
+  .mancollection{
+    background-image: url(man6.jpg);
+    height: 550px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c1{
+    background-image: url(collectionimg1.jpg);
+    height: 250px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .c2{
+    background-image: url(collectionimg2.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c3{
+    background-image: url(collectionimg3.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c4{
+    background-image: url(collectionimg4.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c5{
+    background-image: url(collectionimg5.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c6{
+  
+    background-image: url(collection6.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c7{
+  
+    background-image: url(collectionimg7.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .c8{
+  
+    background-image: url(collectionimg8.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .c9{
+    background-image: url(collectionimg9.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+}
+
+@include media-breakpoint-up(lg) {
+  
+   .scmedia{
+
+     position: relative;
+     top: 300px;
+   }
+   .scroll{
+     position: relative;
+     top: 720px;
+     right: 20px;
+   }
+   .dc6{
+     
+     position: relative;
+     top: 390px;
+     font-size: 30px;
+   }
+   .w1{
+     background-image: url(foto4.jpg);
+     height: 620px;
+     width: auto;
+     background-position: center;
+     background-size: cover;
+   }
+   
+   .dc3{
+    position: relative;
+    top: 400px;
+    left: 20px;
+    }
+    .m1{
+      background-image: url(foto5.jpg);
+     height: 300px;
+     width: auto;
+     background-position: center;
+     background-size: cover;
+    }
+    .k1{
+      background-image: url(kids.jpg);
+      width:auto;
+      height: 300px;
+      background-position: center;
+      background-size: cover;
+    }
+    .gift{
+      background-color: bisque;
+      width: auto;
+      height: 300px;
+      display: block;
+    }
+   .s1{
+     background-image: url(woman2.jpg);
+     height: 350px;
+     width:auto;
+     background-position: center;
+     background-size: cover;
+   }
+   .s2{
+     background-image: url(man2.jpg);
+     height: 350px;
+     width:auto;
+     background-position: center;
+     background-size: cover;
+
+   }
+   .s3{
+    background-image: url(woman3.jpg);
+    height: 350px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s4{
+    background-image: url(man3.jpg);
+    height: 350px;
+    width: auto;
+    background-position: center ;
+    background-size: cover;
+  }
+  .s5{
+    background-image: url(man7.jpg);
+    height: 350px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s6{
+    background-image: url(woman4.jpg);
+    height: 350px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s7{
+    background-image: url(man4.jpg);
+    height: 350px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .s8{
+    background-image: url(woman5.jpg);
+    height: 350px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .graybg{
+    background-image: url(graybg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 520px;
+    width: auto;
+  }
+  .womcollection{
+    background-image: url(woman7.jpg);
+    height: 550px;
+    width: auto;
+    background-position: center ;
+    background-size: cover;
+  }
+  .mancollection{
+    background-image: url(man6.jpg);
+    height: 550px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .txt2{
+    position: relative;
+    top: 400px;
+    left: 30px;
+}
+  .txt1{
+    position: relative;
+    top: 400px;
+    left: 30px;
+}
+  
+  .dc8{
+    position: relative;
+    top: 200px;
+    left: 30px;
+    
+  }
+  .c1{
+    background-image: url(collectionimg1.jpg);
+    height: 250px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .c2{
+    background-image: url(collectionimg2.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c3{
+    background-image: url(collectionimg3.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c4{
+    background-image: url(collectionimg4.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c5{
+    background-image: url(collectionimg5.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c6{
+  
+    background-image: url(collection6.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  .c7{
+  
+    background-image: url(collectionimg7.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .c8{
+  
+    background-image: url(collectionimg8.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .c9{
+    background-image: url(collectionimg9.jpg);
+    height: 250px;
+    width:auto;
+    background-position: center;
+    background-size: cover;
+  }
+  
+}
+    
